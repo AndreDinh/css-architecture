@@ -4,20 +4,28 @@ header{
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: rgba(178,178,178,10);
-  height: 100px;
 }
-h1{
-  font-size: 40px;
-  padding: 5px 0px;
-}
-h2{
-  font-size: 35px;
-}
-nav{
-  margin: 40px;
-}
+
 img{
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  height: 500px;
+  width: 100%;
 }
+a{
+  padding: 15px;
+  text-decoration: none;
+}
+p{
+  margin: 0 50px;
+  font-size: 25px;
+}
+article{
+  height: 350px;
+}
+article:nth-child(odd){
+  background-color: #D3DADE;
+  opacity: 0.5;
+}
+

@@ -422,3 +422,29 @@ td,
 th {
   padding: 0;
 }
+/*custom layout*/
+header{
+  height: 100px;
+}
+h1{
+  font-size: 40px;
+  padding: 5px;
+}
+h2{
+  text-align: center;
+  margin: 2px;
+  padding: 10px;
+}
+nav{
+  margin: 40px;
+}
+a{
+  font-size: 20px;
+}
+article{
+  color: #4C4E4E;
+}
+.copyRight{
+  font-size: 10px;
+  color: gray;
+}
