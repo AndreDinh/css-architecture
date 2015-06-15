@@ -1,0 +1,23 @@
+header{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(178,178,178,10);
+  height: 100px;
+}
+h1{
+  font-size: 40px;
+  padding: 5px 0px;
+}
+h2{
+  font-size: 35px;
+}
+nav{
+  margin: 40px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
