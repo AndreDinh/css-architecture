@@ -423,19 +423,42 @@ th {
   padding: 0;
 }
 /*custom layout*/
+
+/*fonts*/
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('fonts/lato-regular.eot');
+    src: url('fonts/lato-regular.eot') format('embedded-opentype'),
+         url('fonts/lato-regular.woff2') format('woff2'),
+         url('fonts/lato-regular.woff') format('woff'),
+         url('fonts/lato-regular.ttf') format('truetype'),
+         url('fonts/lato-regular.svg#LatoRegular') format('svg');
+}
+@font-face {
+    font-family: 'LatoBoldBold';
+    src: url('fonts/lato-bold.eot');
+    src: url('fonts/lato-bold.eot') format('embedded-opentype'),
+         url('fonts/lato-bold.woff2') format('woff2'),
+         url('fonts/lato-bold.woff') format('woff'),
+         url('fonts/lato-bold.ttf') format('truetype'),
+         url('fonts/lato-bold.svg#LatoBoldBold') format('svg');
+}
 header{
   height: 100px;
+  background-color: rgba(178,178,178,.5);
 }
 h1{
   font-size: 40px;
   padding: 5px;
 }
 h2{
+  font-family: 'LatoBoldBold';
   text-align: center;
   margin: 2px;
   padding: 10px;
 }
 nav{
+  font-family: 'LatoRegular';
   margin: 40px;
 }
 a{
@@ -443,6 +466,16 @@ a{
 }
 article{
   color: #4C4E4E;
+}
+fieldset{
+  border: 0;
+}
+/*http://stackoverflow.com/questions/3274950/rounded-corners-for-input-type-text-using-border-radius-htc-for-ie*/
+input{
+  border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
 }
 .copyRight{
   font-size: 10px;
