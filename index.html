@@ -15,18 +15,18 @@
     <main>
       <header class="container ">
         <h1>Andre's blog</h1>
-        <nav >
-          <a href="contact.html"><span class="icon-home"></span>Contact</a>
-          <a href="about.html"><span class="icon-keyboard"></span>About</a>
-          <a href="projects.html" class="icon-github">Projects</a>
+        <nav class"nav__link">
+          <a href="contact.html" class="nav__link icon-home">Contact</a>
+          <a href="about.html" class="nav__link icon-keyboard">About</a>
+          <a href="projects.html" class="icon-github nav__link">Projects</a>
         </nav>
       </header>
-      <article class="col span_12_of_12">
+      <article class=" article__header--paragraph col span_12_of_12">
         <h2>Lorem ipsum 1</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis arcu eu ipsum aliquet suscipit. Nullam mollis elit at eros cursus malesuada. Mauris molestie metus sed quam tincidunt, a fringilla risus vehicula. Suspendisse potenti. Phasellus pulvinar pretium massa in accumsan. Vestibulum tristique ex blandit, hendrerit nisl ut, accumsan est. Morbi finibus urna viverra, ullamcorper nunc sed, scelerisque purus. Mauris posuere ullamcorper turpis sed aliquam.</p>
       </article>
       <section >
-        <article class="col span_12_of_12">
+        <article class="article__header--form col span_12_of_12 ">
           <section class="col span_8_of_12">
             <h2>Lorem ipsum 2</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis arcu eu ipsum aliquet suscipit. Nullam mollis elit at eros cursus malesuada. Mauris molestie metus sed quam tincidunt, a fringilla risus vehicula. Suspendisse potenti. Phasellus pulvinar pretium massa in accumsan. Vestibulum tristique ex blandit, hendrerit nisl ut, accumsan est. Morbi finibus urna viverra, ullamcorper nunc sed, scelerisque purus. Mauris posuere ullamcorper turpis sed aliquam.</p>
@@ -36,31 +36,19 @@
             <legend>Questions?</legend>
             <lable><input id="given-name" name="given-name" type="text" placeholder="First name" required autofocus></lable>
             <lable><input id="family-name" name="family-name" type="text" placeholder="Last name" required autofocus></lable>
-            <lable><input id="comments" name="comments" type="comments" placeholder="Comments" cols="40" rows="5" required></lable>
+            <lable><textarea id="comments" name="comments" type="comments" placeholder="Comments"  rows="5" cols="32" required></textarea></lable>
             <button>Submit</button>
           </fieldset>
         </form>
         </article>
-       <!--  <img src="front.jpg"> -->
       </section>
-      <article class="col span_12_of_12">
-        <img src="front.jpg" class="col span_5_of_12">
+      <article class=" article__header--img col span_12_of_12">
+        <img src="side-bg.jpg" class="col span_5_of_12">
         <section class="col span_7_of_12">
           <h2>Lorem ipsum 3</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis arcu eu ipsum aliquet suscipit. Nullam mollis elit at eros cursus malesuada. Mauris molestie metus sed quam tincidunt, a fringilla risus vehicula. Suspendisse potenti. Phasellus pulvinar pretium massa in accumsan. Vestibulum tristique ex blandit, hendrerit nisl ut, accumsan est. Morbi finibus urna viverra, ullamcorper nunc sed, scelerisque purus.Mauris posuere ullamcorper turpis sed aliquam.</p>
         </section>
       </article>
-      <section class="col span_5_of_12">
-        <!-- <form>
-          <fieldset>
-            <legend>Questions?</legend>
-            <input id="given-name" name="given-name" type="text" placeholder="First name" required autofocus>
-            <input id="family-name" name="family-name" type="text" placeholder="Last name" required autofocus>
-            <input id="comments" name="comments" type="comments" placeholder="example@domain.com" required>
-            <button>Submit</button>
-          </fieldset>
-        </form> -->
-      </section>
     </main>
     <footer>
       <p class="copyRight">Andre's Blog &copy; 2015 - All Rights Reserved</p>

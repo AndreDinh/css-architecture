@@ -449,24 +449,14 @@ th {
      font-weight: normal;
      font-style: normal;
    }
-@font-face {
-  font-family: 'icomoon';
-  src:url('fonts/icomoon.eot?eufh6s');
-  src:url('fonts/icomoon.eot?#iefixeufh6s') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?eufh6s') format('truetype'),
-    url('fonts/icomoon.woff?eufh6s') format('woff'),
-    url('fonts/icomoon.svg?eufh6s#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 /*Using Iconmoon fonts*/
 @font-face {
   font-family: 'icomoon';
-  src:url('../fonts/icomoon.eot?eufh6s');
-  src:url('../fonts/icomoon.eot?#iefixeufh6s') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?eufh6s') format('truetype'),
-    url('../fonts/icomoon.woff?eufh6s') format('woff'),
-    url('../fonts/icomoon.svg?eufh6s#icomoon') format('svg');
+  src:url('../fonts/icomoon.eot?-tzpryb');
+  src:url('../fonts/icomoon.eot?#iefix-tzpryb') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?-tzpryb') format('truetype'),
+    url('../fonts/icomoon.woff?-tzpryb') format('woff'),
+    url('../fonts/icomoon.svg?-tzpryb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -488,21 +478,22 @@ th {
 .icon-home:before {
   content: "\e900";
 }
+.icon-keyboard:before {
+  content: "\e955";
+}
 .icon-arrow-up:before {
   content: "\ea32";
 }
 .icon-github:before {
   content: "\eab1";
 }
-.icon-keyboard:before {
-  content: "\e955";
-}
+
 
 
 /*main styles*/
 header{
   height: 100px;
-  background-color: rgba(178,178,178,.5);
+  background-color: #E8F1FF;
 }
 h1{
   font-size: 40px;
@@ -518,30 +509,32 @@ nav{
   font-family: 'LatoRegular';
   margin: 40px;
 }
+body{
+  background-color: #BAC1CC;
+}
 a{
   font-size: 20px;
 }
+a:visited{
+  color: black;
+}
 p{
   font-family: 'Roboto';
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 50px;
 }
 article{
   color: #4C4E4E;
+  height: 350px;
 }
 fieldset{
   border: 0;
 }
 input{
-  display: block;
-}
-/*http://stackoverflow.com/questions/3274950/rounded-corners-for-input-type-text-using-border-radius-htc-for-ie*/
-input{
   border-radius: 10px;
--moz-border-radius: 10px;
--khtml-border-radius: 10px;
--webkit-border-radius: 10px;
 }
 .copyRight{
   font-size: 10px;
   color: gray;
-  margin-top: 400px;
 }
